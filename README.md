@@ -21,23 +21,24 @@ The project aims to tackle this problem by developing a COVID-19 and Viral Pneum
 
 * Learning rates and Momentums are defined as default
 
-Final_Model = base_cnn(act_1='relu',                                        # Best Act. Function by previous tests
-                        n_filt_1=6,                                         # Best Nº of Convolutional filters by previous tests
-                        n_filt_2=128,                                       # Best Nº of Convolutional filters by previous tests
-                        act_2='softmax',                                    # Best Act. Function by previous tests
-                        kernel_size=(3,3),                                  # Best Kernel size by previous tests   
-                        pool_size=(2,2),                                    # Best MaxPooling size by previous tests
-                        batch_norm=0,                                       # Excluded by previous tests
+<pre>
+Final_Model = base_cnn(act_1='relu',                                        
+                        n_filt_1=6,                                         
+                        n_filt_2=128,                                       
+                        act_2='softmax',                                   
+                        kernel_size=(3,3),                                   
+                        pool_size=(2,2),                                    
+                        batch_norm=0,                                      
                         model_name = 'Final_Model', 
-                        optim=Adam(lr=0.001),                               # Best Optimizer by previous tests
-                        loss_lambda='sparse_categorical_crossentropy',      # Best Loss Function by previous tests
+                        optim=Adam(lr=0.001),                              
+                        loss_lambda='sparse_categorical_crossentropy',      
                         metric='accuracy',
                         epoch=10,
                         schema=1,       
                         scores=1,       
                         results=1,      
-                        data_augmentation=0,                                # Excluded by previous tests
+                        data_augmentation=0,                               
                         seed=0)
-
+</pre>
 
 <img src="https://github.com/joaomalho/DL-Lungs-Viral-Detection-X-Ray/blob/main/lungs_score.png?raw=true" width="900"/>
