@@ -1,13 +1,11 @@
 ### Lung Virus Detection
 
 📖 Introduction
-* Within the scope of Deep Learning, it was proposed a project, where the student's ability to build an Image Classification model following a specific challenge would be tested. It was proposed to create a sequencial model in a greedy iterative manner so that the students would be able to test several parameters and analyze their impact on the models. The project will be divided into 5 notebooks:
+* Within the scope of Deep Learning, it was proposed a project, where the student's ability to build an Image Classification model following a specific challenge would be tested. It was proposed to create a sequencial model in a greedy iterative manner so that the students would be able to test several parameters and analyze their impact on the models. The project is divided into 3 notebooks:
 
 Exploration - Data Collection and Analysis
 Preprocessing - Data Process for Modelling
-Models Without Data Augmentation - Models Construction
-Models Without Oversampling - Models Construction
-Models With Data Augmentation & Oversampling - Models Construction
+Models Buld - That regard Process Models Without Data Augmentation, Models Without Oversampling, Models With Data Augmentation & Oversampling
 
 🔍 The Problem
 * The group came across an interesting thread in Kaggle where the authors published Chest X-rays images so that Deep Learning and AI Enthusiasts can contribute to improving COVID-19 detection using just Chest X-rays, their objective was to "Help the medical and researcher community and encourage them to contribute extensively."
