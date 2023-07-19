@@ -16,9 +16,11 @@ Models With Data Augmentation & Oversampling - Models Construction
 
 The project aims to tackle this problem by developing a COVID-19 and Viral Pneumonia detector using Deep Learning techniques. Specifically, the use of several convolutional neural networks (CNN) models such as VGG and ResNet, in a greedy optimization way to find the optimal hyperparameters for the model. The model will take Chest X-ray images as input and output a classification indicating whether the patient is infected with COVID-19 or viral pneumonia, or not infected at all.
 
+
 ### Final Model
 
-# Learning rates and Momentums are defined as default
+* Learning rates and Momentums are defined as default
+
 Final_Model = base_cnn(act_1='relu',                                        # Best Act. Function by previous tests
                         n_filt_1=6,                                         # Best Nº of Convolutional filters by previous tests
                         n_filt_2=128,                                       # Best Nº of Convolutional filters by previous tests
